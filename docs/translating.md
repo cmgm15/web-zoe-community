@@ -6,9 +6,9 @@
 - Be able to understand English
 - Be able to understand the language you want to translate Element into
 
-## Step 0: Join #element-translations:matrix.org
+## Step 0: Join #element-translations:matrix.zoe.community
 
-1. Come and join https://matrix.to/#/#element-translations:matrix.org
+1. Come and join https://matrix.to/#/#element-translations:matrix.zoe.community
 2. Read scrollback and/or ask if anyone else is working on your language, and co-ordinate if needed.  In general little-or-no coordination is needed though :)
 
 ## Step 1: Preparing your Weblate Profile

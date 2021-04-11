@@ -91,7 +91,7 @@ async function initPage() {
     if (hsUrl && !hsUrl.endsWith('/')) hsUrl += '/';
     if (isUrl && !isUrl.endsWith('/')) isUrl += '/';
 
-    if (hsUrl !== 'https://matrix.org/') {
+    if (hsUrl !== 'https://matrix.zoe.community/') {
         document.getElementById('configure_element_button').href =
             "https://mobile.element.io?hs_url=" + encodeURIComponent(hsUrl) +
             "&is_url=" + encodeURIComponent(isUrl);

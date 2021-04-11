@@ -7,7 +7,7 @@ You can configure the app by copying `config.sample.json` to
 For a good example, see https://develop.element.io/config.json.
 
 1. `default_server_config` sets the default homeserver and identity server URL for
-   Element to use. The object is the same as returned by [https://<server_name>/.well-known/matrix/client](https://matrix.org/docs/spec/client_server/latest.html#get-well-known-matrix-client),
+   Element to use. The object is the same as returned by [https://<server_name>/.well-known/matrix/client](https://matrix.zoe.community/docs/spec/client_server/latest.html#get-well-known-matrix-client),
    with added support for a `server_name` under the `m.homeserver` section to display
    a custom homeserver name. Alternatively, the config can contain a `default_server_name`
    instead which is where Element will go to get that same object, although this option is
@@ -158,7 +158,7 @@ user to set an identity server first when attempting to use features that
 require one.
 
 Currently, the only two public identity servers are https://vector.im and
-https://matrix.org, however in the future identity servers will be
+https://matrix.zoe.community, however in the future identity servers will be
 decentralised.
 
 Desktop app configuration
