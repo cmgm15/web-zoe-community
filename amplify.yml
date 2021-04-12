@@ -16,8 +16,6 @@ frontend:
         - popd
     build:
       commands:
-        - git clone https://github.com/ZOE-Cash/web-zoe-community
-        - cd web-zoe-community
         - yarn link matrix-js-sdk
         - yarn link matrix-react-sdk
         - yarn install
