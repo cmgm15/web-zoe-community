@@ -18,7 +18,7 @@ frontend:
       commands:
         - yarn link matrix-js-sdk
         - yarn link matrix-react-sdk
-        - yarn 
+        - yarn install
         - yarn build
   artifacts:
     baseDirectory: webapp
