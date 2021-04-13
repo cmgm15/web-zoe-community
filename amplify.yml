@@ -17,7 +17,7 @@ frontend:
           - yarn link matrix-js-sdk
           - yarn link matrix-react-sdk
           - yarn install
-          -
+
     build:
       commands:
         - yarn build
